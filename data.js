@@ -1,0 +1,60 @@
+//  use this quizData in your app.
+export const quizData = [{
+    "question": "Which language runs in a web browser?",
+    "a": "Java",
+    "b": "C",
+    "c": "Python",
+    "d": "JavaScript",
+    "correct": "d",
+},
+{
+    "question": "What does CSS stand for?",
+    "a": "Central Style Sheets",
+    "b": "Cascading Style Sheets",
+    "c": "Cascading Simple Sheets",
+    "d": "Cars SUVs Sailboats",
+    "correct": "b",
+},
+{
+    "question": "What does HTML stand for?",
+    "a": "Hypertext Markup Language",
+    "b": "Hypertext Markdown Language",
+    "c": "Hyperloop Machine Language",
+    "d": "Helicopters Terminals Motorboats Lamborginis",
+    "correct": "a",
+},
+{
+    "question": "What year was JavaScript launched?",
+    "a": "1996",
+    "b": "1995",
+    "c": "1994",
+    "d": "none of the above",
+    "correct": "b",
+},
+{
+    "question": "Who invented the World Wide Web?",
+    "a": "Timothy Berners Lee",
+    "b": "Mohd Abbas Haidar",
+    "c": "John von Neumann",
+    "d": "all of the above",
+    "correct": "b",
+},
+{
+    "question": "Who is the greatest programmer of all time?",
+    "a": "Linus Torvalds",
+    "b": "John Carmack",
+    "c": "Mohd Abbas Haidar",
+    "d": "Chris Sawyer",
+    "correct": "c",
+},
+{
+    "question": "What's the best thing to do out of the given options?",
+    "a": "sleep",
+    "b": "talk to your best friend",
+    "c": "eat",
+    "d": "look at the blessed face of The Great Mohd Abbas Haidar",
+    "correct": "d",
+},
+
+// you can add more quiz here
+]
