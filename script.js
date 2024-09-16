@@ -7,6 +7,11 @@ let currentCorrectOption = '?';
 
 const totalNumberOfQuestions = quizData.length;
 
+const submitButton = document.querySelector('.submit-button');
+submitButton.addEventListener('click', updateScore);
+
+displayQuestion ();
+
 function updateScore()
 {
     currentCorrectOption = quizData[currentQuestionNumber].correct;
@@ -17,6 +22,11 @@ function updateScore()
         ++currentScore;
     }
     
+    document.getElementById('a').checked = false;
+    document.getElementById('b').checked = false;
+    document.getElementById('c').checked = false;
+    document.getElementById('d').checked = false;
+
     ++currentQuestionNumber;
     console.log (currentQuestionNumber);
     displayQuestion ();
@@ -55,8 +65,3 @@ function displayQuestion()
     optionBoxes[2].innerHTML = quizData[currentQuestionNumber].c;
     optionBoxes[3].innerHTML = quizData[currentQuestionNumber].d;
 }
-
-const submitButton = document.querySelector('.submit-button');
-submitButton.addEventListener('click', updateScore);
-
-displayQuestion ();
